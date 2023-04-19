@@ -1,19 +1,43 @@
-.carolinepic {
+
+.placeholder {
 	max-width: 200px;
 }
-
-.header {
-	text-align: center;
-	color: white;
-	background: black;
+.topnav {
+	background-color:white;
+	overflow:hidden;
+}
+.topnav a {
+	float: left;
+	color:black;
+	text-align:center;
+	padding: 14px 16px;
+	font-size: 20px;
+}
+img {
+	width: auto;
+	max-height: 100%;
+	padding-top: 20px;
+	padding-right: 50px;
+	padding-bottom: 30px;
+	padding-left: 40px;
 }
 
+h1 {
+	text-align: center;
+	color: black;
+	background: white;
+	font-family: 'Patrick Hand', cursive;
+	font-size:50px;
+}
+h2 {
+	color: black;
+	background: white;
+}
 
 
 p {
-	font-family: 'Inria Serif', serif;
-	font-family: 'Shantell Sans', cursive;
-	font-family: 'sans-serif;'
+	font-family: sans-serif;
+	color: black;
 }
 
 body {
@@ -21,24 +45,14 @@ body {
 }
 
 img {
+	display: block;
 	width: 400px,
 	height: auto;
+	margin-left: auto;
+	margin-right:auto;
 }
-.mark-img
-{
-	float: left;
-	margin: 3px;
-	/*padding-right: 10px;*/
-	max-height: 3.5rem;
-	margin-top: 0.5rem;
-
-
-
-
-}
-
-.project-thumb {
-	float: left;
-	padding: .2rem;
-
+footer {
+	height:50px;
+	background: white;
+	text-align: center;
 }
