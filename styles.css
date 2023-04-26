@@ -1,3 +1,17 @@
+.skip{
+	position: absolute;
+	left: -10000%;
+	top: auto;
+	overflow: hidden;
+	width: 1px;
+	height: 1px;
+}
+
+.skip:focus {
+	position: static;
+	width: auto;
+	height: auto;
+}
 
 .placeholder {
 	max-width: 200px;
